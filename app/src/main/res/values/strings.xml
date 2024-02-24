@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">KotlinAgenda24</string>
+    <string name="cedula">Cédula</string>
+</resources>
