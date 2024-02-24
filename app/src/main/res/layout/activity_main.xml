@@ -25,7 +25,7 @@
         android:layout_marginTop="252dp"
         android:text="Correo:"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        app:layout_constraintEnd_toStartOf="@+id/emailText"
+        app:layout_constraintEnd_toStartOf="@+id/txtCorreoLG"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -37,14 +37,14 @@
         android:text="Contraseña"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/passwordText"
+        app:layout_constraintEnd_toStartOf="@+id/txtPassLG"
         app:layout_constraintHorizontal_bias="0.909"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.481" />
 
     <EditText
-        android:id="@+id/emailText"
+        android:id="@+id/txtCorreoLG"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="236dp"
@@ -55,7 +55,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/passwordText"
+        android:id="@+id/txtPassLG"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
